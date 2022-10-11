@@ -3,7 +3,7 @@
     <title>Menambahkan data santri</title>
 </head>
 <body>
-    <a href="index.php">Go To Home</a>
+    <a href="main.php">Go To Home</a>
     <br/><br/>
     <form action="add.php" method="post" name="form1">
         <table width="25%" border="0">
