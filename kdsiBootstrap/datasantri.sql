@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 11, 2022 at 07:05 AM
+-- Generation Time: Oct 18, 2022 at 10:59 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -28,8 +28,10 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `datasantri` (
-  `no` int(5) NOT NULL,
+  `id` int(5) NOT NULL,
   `namasantri` varchar(50) DEFAULT NULL,
+  `kelamin` varchar(12) DEFAULT NULL,
+  `tgl_lahir` date DEFAULT NULL,
   `email` varchar(30) NOT NULL,
   `tlpn` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -38,8 +40,11 @@ CREATE TABLE `datasantri` (
 -- Dumping data for table `datasantri`
 --
 
-INSERT INTO `datasantri` (`no`, `namasantri`, `email`, `tlpn`) VALUES
-(4, 'Imam Syabana', 'imambritish@gmail.com', '088213626307');
+INSERT INTO `datasantri` (`id`, `namasantri`, `kelamin`, `tgl_lahir`, `email`, `tlpn`) VALUES
+(7, 'Muhammad Imam Ariq Sya\'bana', 'lakilaki', '2022-10-20', 'imambritish@gmail.com', '088213626307'),
+(8, 'Imam Syabana', 'lakilaki', '2022-10-02', 'imambritish@gmail.com', '088213626307'),
+(9, 'Siti', 'perempuan', '2022-10-27', 'imambritish@gmail.com13', '088213626307'),
+(15, 'Budi', 'lakilaki2', '2022-10-05', 'budi@gmail.com', '01234566');
 
 --
 -- Indexes for dumped tables
@@ -49,7 +54,7 @@ INSERT INTO `datasantri` (`no`, `namasantri`, `email`, `tlpn`) VALUES
 -- Indexes for table `datasantri`
 --
 ALTER TABLE `datasantri`
-  ADD PRIMARY KEY (`no`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -59,7 +64,7 @@ ALTER TABLE `datasantri`
 -- AUTO_INCREMENT for table `datasantri`
 --
 ALTER TABLE `datasantri`
-  MODIFY `no` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
