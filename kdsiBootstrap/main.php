@@ -1,7 +1,7 @@
 <?php
 include_once("connect.php");
 
-$result = mysqli_query($mysqli, "SELECT * FROM datasantri ORDER BY no DESC");
+$result = mysqli_query($mysqli, "SELECT * FROM datasantri ORDER BY id DESC");
 ?>
 
 <html>
@@ -41,7 +41,7 @@ code {
         
         <table width='80%' border=1>
         <tr>
-            <th>Nama Santri</th> <th>No Telpon</th> <th>Email</th>
+            <th>Nama Santri</th> <th>No Telpon</th> <th>Email</th> <th>Tgl_lahir</th> <th>Kelamin</th>
         </tr>
         <?php
         While($user_data = mysqli_fetch_array($result)) {
@@ -49,7 +49,10 @@ code {
             echo "<td>".$user_data['namasantri']."</td>";
             echo "<td>".$user_data['tlpn']."</td>";
             echo "<td>".$user_data['email']."</td>";
-            
+            echo "<td>".$user_data['tgl_lahir']."</td>";
+            echo "<td>".$user_data['kelamin']."</td>";
+            echo "<td><a href='edit.php?id=$user_data[id]'>Edit</a> | <a href='delete.php?id=$user_data[id]'>Delete</a></td></tr>";
+        
         }
         ?>
         </table>
