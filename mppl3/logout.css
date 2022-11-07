@@ -1,0 +1,28 @@
+.yes{
+    left: 650px;
+    top: 330px;
+    position: fixed;
+    margin: 10px;
+}
+.no{
+    left: 800px;
+    top: 330px;
+    position: fixed;
+    margin: 10px;
+}
+input[type="submit"]{
+    font-size: 17px;
+    font-weight: bold;
+}
+p{
+    margin: auto;
+    left: 100px;
+    position: center;
+}
+.tulis{
+    margin: auto;
+    left: 500px;
+    top: 300px;
+    font-size: 20px;
+    position: fixed;
+}

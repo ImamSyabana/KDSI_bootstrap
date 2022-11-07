@@ -1,0 +1,32 @@
+.tulis{
+    margin: auto;
+    left: 450px;
+    top: 150px;
+    font-size: 20px;
+    position: fixed;
+}
+.judul{
+    padding-left: 0px;
+}
+.links{
+    padding-left: 80px;
+	list-style: none;
+	position: relative;
+}
+
+.links li a{
+	color: #0c0b65;
+	text-decoration: none;
+	padding: 10px 14px;
+}
+.links li:hover a{
+	color: #bd812c;
+	transition: 0,3s;
+}
+.links li:hover ~ .active{
+	display: block;
+}
+
+.links li:nth-child(1):hover ~ .active{
+	top: 1%;
+}

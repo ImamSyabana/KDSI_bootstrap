@@ -1,0 +1,56 @@
+.judul{
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    left: 350px;
+    top: 150px;
+    font-size: 20px;
+    position: fixed;
+}
+.jdl{
+    padding-left: 250px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.ref{
+    margin: auto;
+    left: 380px;
+    top: 330px;
+    font-size: 20px;
+    position: fixed;
+}
+.links{
+	list-style: none;
+	position: relative;
+}
+.links li{
+	padding: 10px 0;
+}
+.links li a{
+	color: #0c0b65;
+	text-decoration: none;
+	padding: 10px 14px;
+}
+.links li:hover a{
+	color: #bd812c;
+	transition: 0,3s;
+}
+.nav-links li:hover ~ .active{
+	display: block;
+}
+
+.nav-links li:nth-child(1):hover ~ .active{
+	top: 1%;
+}
+
+.nav-links li:nth-child(2):hover ~ .active{
+	top: 26%;
+}
+
+.nav-links li:nth-child(3):hover ~ .active{
+	top: 51%;
+}
+
+.nav-links li:nth-child(4):hover ~ .active{
+	top: 76%;
+}

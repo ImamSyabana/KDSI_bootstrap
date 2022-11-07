@@ -1,0 +1,57 @@
+input[type="text"]{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+input[type="email"]{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+input[type="password"]{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+input[type="submit"]{
+    font-size: 15px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+.berhasil{
+    margin: auto;
+    position: fixed;
+    top: 500px;
+    left: 540px;
+    font-size: 20px;
+}
+.gagal{
+    color: red;
+    font-weight: bold;
+    margin: auto;
+    position: fixed;
+    top: 500px;
+    left: 480px;
+    font-size: 20px;
+}
+.spasi{
+    padding-top: 5px;
+}
+.isi{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.tulis{
+    margin: auto;
+    left: 600px;
+    top: 100px;
+    font-size: 20px;
+    position: fixed;
+}
+.judul{
+    padding-left: 100px;
+}

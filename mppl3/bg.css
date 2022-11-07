@@ -1,0 +1,114 @@
+.samping{
+	width: 250px;
+	height: 100%;
+	background: #A2D4E8;
+	position: fixed;
+	top: 110px;
+	left: 0;
+	padding: 20px 30px;
+}
+.logout{
+	top: 30px;
+	right: 10px;
+	position: fixed;
+}
+.pencet img{
+	height: 40px;
+	width: 40px;
+}
+.pencet{
+	top: 25px;
+	right: 40px;
+	font-size: 15px;
+	left: 320px;
+	padding-left: 1100px;
+	position: fixed;
+}
+.links{
+	list-style: none;
+	position: relative;
+}
+.links li{
+	padding: 10px 0;
+}
+.links li a{
+	color: #1E00D8;
+	text-decoration: none;
+	padding: 10px 14px;
+}
+.links li:hover a{
+	color: #05c10e;
+	transition: 0,3s;
+}
+.links li:hover ~ .active{
+	display: block;
+}
+
+.links li:nth-child(1):hover ~ .active{
+	top: 1%;
+}
+
+.links li:nth-child(2):hover ~ .active{
+	top: 21%;
+}
+
+.links li:nth-child(3):hover ~ .active{
+	top: 41%;
+}
+
+.links li:nth-child(4):hover ~ .active{
+	top: 61%;
+}
+.links li:nth-child(5):hover ~ .active{
+	top: 81%;
+}
+.batas{
+    border-color: rgb(245, 255, 255);
+	left: 5px;
+    width: 295px;
+    border-style: solid;
+	margin: auto;
+	position: fixed;
+    height: 0;
+    
+}
+.atas {
+	background-color: #2D7996;
+	background-size: 100% 500px;
+	height: 110px;
+	
+}
+.kotak{
+	border: #EEDE8A;
+	border-style: solid;
+	margin: auto;
+	position: center;
+	width: 1500px;
+	height: 0;
+	top: 100px;
+	
+}
+.header{
+	left: 10;
+}
+.logo_bg{
+	background-image: url(image/logo\ pp\ dream.png);
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: 0,0,0.5;
+	filter: opacity(50%);
+	left: 570px;
+	top: 100px;
+	position: fixed;
+	background-size:60% 600px;
+	height: 700px;
+	width: 1200px;
+	;
+}
+body{
+	margin: 0 auto;
+	background-color: #5BBEE4;
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}

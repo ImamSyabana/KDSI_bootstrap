@@ -1,0 +1,82 @@
+input[type="text"]{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+input[type="email"]{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+input[type="password"]{
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+input[type="submit"]{
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(214, 214, 214);
+}
+.spasi{
+    padding-top: 5px;
+}
+.isi{
+    font-size: 20px;
+    padding-left: 40px;
+}
+.berhasil{
+    margin: auto;
+    position: fixed;
+    top: 600px;
+    left: 540px;
+    font-size: 20px;
+}
+.gagal{
+    color: red;
+    font-weight: bold;
+    margin: auto;
+    position: fixed;
+    top: 600px;
+    left: 540px;
+    font-size: 20px;
+}
+.tulis{
+    margin: auto;
+    left: 500px;
+    top: 100px;
+    font-size: 20px;
+    position: fixed;
+}
+.judul{
+    padding-left: 100px;
+}
+.links{
+	list-style: none;
+	position: relative;
+}
+
+.links li a{
+	color: #0c0b65;
+	text-decoration: none;
+	padding: 10px 14px;
+}
+.links li:hover a{
+	color: #bd812c;
+	transition: 0,3s;
+}
+.links li:hover ~ .active{
+	display: block;
+}
+
+.links li:nth-child(1):hover ~ .active{
+	top: 1%;
+}
+
+.links li:nth-child(2):hover ~ .active{
+	top: 51%;
+}
